@@ -1,5 +1,86 @@
+
 body {
     background-image: url('https://img.freepik.com/free-photo/colorful-sky-after-sunset_661209-461.jpg?t=st=1702299160~exp=1702299760~hmac=5056fdd97d92e8125f7563be55dc0f044b64bdc55f1056b1a1c19be191278a54');
     background-repeat: no-repeat;
     background-size: cover;
-  }
+    font-family:"Copperplate";
+    font-weight: bolder;
+    color:black
+    box-sixing: border-box;
+}
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 9px;
+}
+.search input {
+  border: 0;
+  outline: 0;
+  background: whitesmoke;
+  padding: 10px 25px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+}
+.btn {
+  border:0;
+  border-radius: 30px;
+  outline: 0;
+  padding: 5px 10px;
+  background-color: #ffdb62;
+  cursor: pointer;
+}
+.weather-icon {
+  width: 170px;
+  margin-top: 30px;
+  max-height: fit-content;
+  
+}
+.weather h1 {
+  font-size: 80px;
+  font-weight: 500;
+}
+.weather h2 {
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+.col{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.col img{
+  width: 50px;
+  margin-right: 10px;
+}
+
+.humidity,
+.wind,
+{
+  font-size: 20px;
+  margin-top: -6px;
+}
+.weather {
+  display: 70%;
+}
+.weather{
+  display: none;
+}
+.error {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  display: none;
+}
